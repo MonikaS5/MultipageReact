@@ -1,38 +1,237 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Header */
+.header {
+  background-color: #CBCE91FF;
+  color: #FFFFFF;
+  padding: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  .header .container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .header .logo {
+  margin: 0;
   }
-}
+  
+  .header .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .header .nav ul li {
+  display: inline;
+  margin-right: 20px;
+  }
+  
+  .header .nav ul li:last-child {
+  margin-right: 0;
+  }
+  
+  .header .nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+  
+  .header .nav ul li a:hover {
+  text-decoration: underline;
+  }
+  /* Home.css */
+  
+  .home {
+  background-color: #F0F0F0;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home h2 {
+  color: #333333;
+  font-size: 32px;
+  margin-bottom: 20px;
+  }
+  
+  .home p {
+  color: #666666;
+  font-size: 18px;
+  line-height: 1.6;
+  }
+  
+  .action-button {
+  background-color: #EA738DFF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .action-button:hover {
+  background-color: #FF4081FF;
+  }
+  
+  /* Footer.css */
+  
+  .footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 40px ;
+  }
+  
+  .footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .footer .footer-content {
+  display: flex;
+  }
+  
+  .footer .footer-content .contact-info,
+  .footer .footer-content .social-media {
+  margin-right: 40px;
+  }
+  
+  .footer h3 {
+  font-size: 20px;
+  }
+  
+  .footer p {
+  font-size: 16px;
+  }
+  
+  .footer ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  .footer ul li {
+  margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+  text-decoration: underline;
+  }
+  
+  .footer .copyright {
+  font-size: 14px;
+  }
+  
+  
+  /* Apply similar styles for other components */
+  /* docs.css */
+  
+  .docs {
+  background-color: #F0F0F0;
+  padding: 40px 0;
+  }
+  
+  .docs .container {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  
+  .docs h2 {
+  color: #333333;
+  font-size: 28px;
+  margin-bottom: 20px;
+  }
+  
+  .doc {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doc h3 {
+  color: #333333;
+  font-size: 20px;
+  }
+  
+  .doc p {
+  color: #666666;
+  }
+  
+  /* tutorials.css */
+  
+  .tutorials {
+  background-color: #F0F0F0;
+  padding: 40px 0;
+  }
+  
+  .tutorials .container {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  
+  .tutorials h2 {
+  color: #333333;
+  font-size: 28px;
+  margin-bottom: 20px;
+  }
+  
+  .tutorial {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tutorial h3 {
+  color: #333333;
+  font-size: 20px;
+  }
+  
+  .tutorial p {
+  color: #666666;
+  }
+  
+  /* About.css */
+  
+  .about-page {
+  background-color: #F0F0F0;
+  padding: 40px 0;
+  }
+  
+  .about-page .container {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  
+  .about-page h2 {
+  color: #333333;
+  font-size: 28px;
+  margin-bottom: 20px;
+  }
+  
+  .about-page p {
+  color: #666666;
+  margin-bottom: 20px;
+  }
+  
+  .about-page ul {
+  padding: 0;
+  }
+  
+  .about-page li {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  

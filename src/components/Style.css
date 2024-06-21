@@ -1,0 +1,256 @@
+/* App.css */
+
+/* Header */
+
+.App-logo {
+    width: 30px;
+
+}
+
+.logo {
+    color: #61fbfb;
+}
+
+.header {
+    background-color: #1a1a19;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    margin: 0;
+}
+
+.header .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header .nav ul li:last-child {
+    margin-right: 0;
+}
+
+.header .nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .nav ul li a:hover {
+    text-decoration: underline;
+    color: #61DAFB;
+}
+
+
+/* Home.css */
+
+.home {
+    background-color: #F0F0F0;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.home h2 {
+    color: #333333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.action-button {
+    background-color: #FF7F7F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #ED3315;
+}
+
+/* Footer.css */
+
+.footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 40px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-content {
+    display: flex;
+}
+
+.footer .footer-content .contact-info,
+.footer .footer-content .social-media {
+    margin-right: 40px;
+}
+
+.footer h3 {
+    font-size: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: #61fbfb;
+
+}
+
+.footer .copyright {
+    font-size: 14px;
+    color:#9f9c9c;
+}
+
+.footer  .myName{
+    color: #61fbfb;
+
+}
+
+/* Apply similar styles for other components */
+/* docs.css */
+
+.docs {
+    background-color: #F0F0F0;
+    padding: 40px 0;
+}
+
+.docs .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.docs h2 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.doc {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doc h3 {
+    color: #333333;
+    font-size: 20px;
+}
+
+.doc p {
+    color: #666666;
+}
+
+/* tutorials.css */
+
+.tutorials {
+    background-color: #F0F0F0;
+    padding: 40px 0;
+}
+
+.tutorials .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tutorials h2 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.tutorial {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial h3 {
+    color: #333333;
+    font-size: 20px;
+}
+
+.tutorial p {
+    color: #666666;
+}
+
+/* About.css */
+
+.about-page {
+    background-color: #F0F0F0;
+    padding: 40px 0;
+}
+
+.about-page .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-page h2 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-page p {
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.about-page ul {
+    padding: 0;
+}
+
+.about-page li {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
