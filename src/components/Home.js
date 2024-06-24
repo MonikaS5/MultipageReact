@@ -32,6 +32,34 @@ const Home = () => {
                 </p>
                 <button className="action-button">More Info</button>
             </div>
+            <div className="container">
+                <h3>ReactJS </h3>
+                <p>React. js is an open-source JavaScript library, crafted with precision by Facebook, that aims to simplify the intricate process of building interactive user interfaces. Imagine a user interface built with React as a collection of components, each responsible for outputting a small, reusable piece of HTML code.
+                </p>
+                <p>A key advantage of React is that it only rerenders those parts of the page that have changed, avoiding unnecessary rerendering of unchanged DOM elements.</p>
+                <h4>React Hooks</h4>
+                <p>Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.
+
+</p>
+                <ul>
+                    <li>Hooks can only be called inside React function components.
+
+                    </li>
+                    <li>Hooks can only be called at the top level of a component.
+
+                    </li>
+                    <li>Hooks cannot be conditional
+
+                    </li>
+                    
+                </ul>
+                
+                <button className="action-button">More Info</button>
+                <h3>Props</h3>
+                <p>Props are arguments passed into React components.
+
+Props are passed to components via HTML attributes.</p>
+            </div>
         </div>
     );
 }
